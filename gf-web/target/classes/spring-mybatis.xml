@@ -83,7 +83,7 @@ http://www.springframework.org/schema/context/spring-context-4.0.xsd
         <property name="basePackage" value="cn.edu.nchu.gf.dao" />
         <property name="properties">
             <value>
-                mappers=cn.edu.nchu.gf.common.base.BaseMapper
+                mappers=BaseMapper
             </value>
         </property>
     </bean>-->

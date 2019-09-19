@@ -1,4 +1,4 @@
-package cn.edu.nchu.gf.model;
+package cn.edu.nchu.gf.core.model;
 
 import javax.persistence.*;
 

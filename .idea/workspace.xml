@@ -7,26 +7,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f96460e-1768-4b01-ae3a-78ad43d9c5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GreenFarm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/gf-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-core/gf-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/gf-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-common/src/main/java/cn/edu/nchu/gf/common/utils/EmailUtill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/META-INF/gf-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/base/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/utils/EmailUtill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/mybatis.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/public.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/public.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/target/test-classes/Email_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/common/base/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/common/query/BaseQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/query/BaseQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/spring-conifg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-conifg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +56,16 @@
       <list>
         <option value="Jsp File" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lq" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -68,30 +91,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1QzNyyYLvGIM1kmnjQTr8qcRHva" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gf-web/target/classes" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gf-web/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\generator" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\GreenFarm\gf-web\src\main\resources" />
+      <recent name="D:\code\GreenFarm\gf-core\src\main\resources" />
+      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.edu.nchu.gf.common.query" />
       <recent name="cn.edu.nchu.gf.common.base" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources" />
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\mapper" />
-      <recent name="D:\code\GreenFarm\gf-web\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\generator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +135,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.75">
+    <configuration name="Email_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gf-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Email_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 7.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -179,6 +217,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 7.0.75" />
+      <item itemvalue="JUnit.Email_Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Email_Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -193,8 +240,16 @@
       <workItem from="1568769724754" duration="1746000" />
       <workItem from="1568771822889" duration="144000" />
       <workItem from="1568772301951" duration="5617000" />
-      <workItem from="1568850951899" duration="4218000" />
+      <workItem from="1568850951899" duration="11159000" />
     </task>
+    <task id="LOCAL-00001" summary="项目模版V1.0">
+      <created>1568855342904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568855342904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,5 +267,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目模版V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目模版V1.0" />
   </component>
 </project>

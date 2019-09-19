@@ -20,11 +20,11 @@
                         password="123">
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="cn.edu.nchu.gf.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="cn.edu.nchu.gf.core.model" targetProject="src/main/java"/>
 
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
-        <javaClientGenerator targetPackage="cn.edu.nchu.gf.dao" targetProject="src/main/java"
+        <javaClientGenerator targetPackage="cn.edu.nchu.gf.core.dao" targetProject="src/main/java"
                              type="XMLMAPPER"/>
         <!--自动生成的表 -->
         <table tableName="%">

@@ -8,13 +8,19 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-4.0.xsd
 ">
 
-    <!-- 引入属性文件 -->
-    <context:property-placeholder location="classpath:jdbc.properties" />
-
-
-
+    <!-- 引入属性文件-单个 -->
+    <!-- <context:property-placeholder location="classpath:jdbc.properties" />-->
+    <!-- 引入系统属性文件-多个 -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:properties/dev.properties</value>
+                <value>classpath:properties/jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
     <!-- 自动扫描(自动注入) -->
-    <context:component-scan base-package="cn.edu.nchu.gf.service" />
-
-
+    <context:component-scan base-package="cn.edu.nchu.gf.core.service" />
+    <context:component-scan base-package="cn.edu.nchu.gf.common.utils" />
+    <context:component-scan base-package="cn.edu.nchu.gf.task" />
 </beans>
