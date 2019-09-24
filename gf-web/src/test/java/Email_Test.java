@@ -26,7 +26,7 @@ public class Email_Test {
     public void SimpleMailMessage() throws Exception {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setFrom(username);//        发送人
-        mailMessage.setTo("1290111906@qq.com");//          收件人
+        mailMessage.setTo("1581463050@qq.com");//          收件人
         mailMessage.setSubject("隐世集团");//               标题
         mailMessage.setText("隐无为-祝福你");            //            内容
         emailSender.send(mailMessage);
@@ -40,7 +40,7 @@ public class Email_Test {
             String html = "<h1>隐世集团祝福你</h1>";
             MimeMessageHelper helper = new MimeMessageHelper(mimeMsg, true);
             helper.setFrom(username);
-            helper.setTo("1290111906@qq.com");
+            helper.setTo("1581463050@qq.com");
             helper.setSubject("隐世集团");
             helper.setText(html, true);
             emailSender.send(mimeMsg);

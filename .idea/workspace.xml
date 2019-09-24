@@ -7,67 +7,311 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f96460e-1768-4b01-ae3a-78ad43d9c5b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/src/main/java/cn/edu/nchu/gf/common/utils/EmailUtill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/META-INF/gf-common.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/base/BaseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/utils/EmailUtill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/mybatis.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/public.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-msg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/public.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-msg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gf-web/target/test-classes/Email_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/common/base/BaseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/common/query/BaseQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/query/BaseQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenFarm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/gf-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/META-INF/gf-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/base/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/query/BaseQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-common/target/classes/cn/edu/nchu/gf/utils/EmailUtill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/gf-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/META-INF/gf-core.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/target/classes/META-INF/gf-core.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/cn/edu/nchu/gf/model/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-core/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-core/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-core/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/gf-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/mybatis.log" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/mybatis.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/applicationContext-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/applicationContext-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/META-INF/gf-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/META-INF/gf-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/applicationContext-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/common/base/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/common/query/BaseQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/spring-conifg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/aspectjweaver-1.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/classmate-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-lang3-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/curvesapi-1.04.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-annotation-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-base-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-web-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-core-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-databind-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/log4j-1.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mapper-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/ooxml-schemas-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-ooxml-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-ooxml-schemas-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-context-support-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-messaging-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-oxm-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-websocket-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xercesimpl-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/artifacts/gf_web_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/common/base/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/common/query/BaseQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/cn/edu/nchu/gf/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/spring-conifg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/aspectjweaver-1.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/classmate-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/commons-lang3-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/curvesapi-1.04.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/druid-1.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-annotation-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-base-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/easypoi-web-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-core-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jackson-databind-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/log4j-1.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mapper-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/ooxml-schemas-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-ooxml-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/poi-ooxml-schemas-3.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-cache-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-config-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-config-ogdl-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-cipher-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-core-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-crypto-hash-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-event-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-lang-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-spring-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/shiro-web-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-context-support-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-messaging-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-oxm-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/spring-websocket-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xercesimpl-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/artifacts/gf_web_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/properties/dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/properties/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-web/target/classes/spring-conifg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-conifg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gf-web/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gf-web/target/test-classes/Email_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/gf-web/target/test-classes/Email_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/gf-web/target/" />
+    <ignored path="$PROJECT_DIR$/gf-core/target/" />
+    <ignored path="$PROJECT_DIR$/gf-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="green_farm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="green_farm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="green_farm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="green_farm: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="green_farm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="green_farm: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="lq" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/ss.html" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/register.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/home.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/register.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/User.java" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/RegisterService.java" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4f9d035d-6f89-4d40-b196-19717f45e279/console.sql" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/register_2.jsp" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/register_1.jsp" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/UserService.java" />
+        <option value="$PROJECT_DIR$/gf-web/src/main/java/cn/edu/nchu/gf/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/TUserMapper.java" />
+      </list>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -79,9 +323,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\environment\apache-maven-3.6.1\repo" />
-        <option name="mavenHome" value="D:/environment/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\environment\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="C:\Users\Administrator\Desktop\javaTopCompile\repo" />
+        <option name="mavenHome" value="$USER_HOME$/Desktop/javaTopCompile/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\Desktop\javaTopCompile\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -90,37 +334,466 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
   <component name="ProjectId" id="1QzNyyYLvGIM1kmnjQTr8qcRHva" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="nchu" type="462c0819:PsiDirectoryNode" />
+              <item name="gf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GreenFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GreenFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="gf-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gf-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gf-web/src/main/webapp/static/js" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\webapp\WEB-INF\view" />
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\webapp" />
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\webapp\static\js" />
+      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\generator" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\GreenFarm\gf-web\src\main\resources" />
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources" />
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.edu.nchu.gf.common.query" />
       <recent name="cn.edu.nchu.gf.common.base" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\GreenFarm\gf-core\src\main\resources\generator" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\webapp\static\js" />
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\resources\static\js" />
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\resources\static\fonts" />
+      <recent name="G:\学习\校内实训\GreenFarm\GreenFarm\gf-web\src\main\resources\static\css" />
+      <recent name="D:\code\GreenFarm\gf-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,7 +818,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Email_Test.SimpleMailMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gf-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Email_Test" />
+      <option name="METHOD_NAME" value="SimpleMailMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Email_Test.htmlMailMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gf-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Email_Test" />
+      <option name="METHOD_NAME" value="htmlMailMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 7.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.75" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="gf-web:war exploded">
@@ -218,11 +912,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 7.0.75" />
       <item itemvalue="JUnit.Email_Test" />
+      <item itemvalue="JUnit.Email_Test.SimpleMailMessage" />
+      <item itemvalue="JUnit.Email_Test.htmlMailMessage" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.75" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Email_Test.htmlMailMessage" />
+        <item itemvalue="JUnit.Email_Test.SimpleMailMessage" />
         <item itemvalue="JUnit.Email_Test" />
       </list>
     </recent_temporary>
@@ -241,6 +939,11 @@
       <workItem from="1568771822889" duration="144000" />
       <workItem from="1568772301951" duration="5617000" />
       <workItem from="1568850951899" duration="11159000" />
+      <workItem from="1568885004812" duration="4028000" />
+      <workItem from="1568940556706" duration="6919000" />
+      <workItem from="1569143609964" duration="10180000" />
+      <workItem from="1569200560084" duration="21508000" />
+      <workItem from="1569284072937" duration="23400000" />
     </task>
     <task id="LOCAL-00001" summary="项目模版V1.0">
       <created>1568855342904</created>
@@ -252,6 +955,120 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.20 at 08h 55m 13s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.20 at 08h 58m 10s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.20 at 08h 58m 50s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.20 at 09h 02m 47s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.20 at 09h 03m 34s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_htmlMailMessage - 2019.09.20 at 09h 04m 33s.xml">
+      <configuration name="Email_Test.htmlMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.23 at 11h 05m 05s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.23 at 11h 08m 41s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_SimpleMailMessage - 2019.09.23 at 11h 17m 46s.xml">
+      <configuration name="Email_Test.SimpleMailMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Email_Test_htmlMailMessage - 2019.09.23 at 11h 18m 24s.xml">
+      <configuration name="Email_Test.htmlMailMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66035000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90166414" weight="0.68153846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3246154" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.098335855" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3276923" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.68923074" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2193646" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.16490166" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34568834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90166414" weight="0.53384614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.098335855" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3276923" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3276923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2193646" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" weight="0.18910742" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -261,8 +1078,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -271,5 +1108,433 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目模版V1.0" />
     <option name="LAST_COMMIT_MESSAGE" value="项目模版V1.0" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/mybatis.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/gf_web_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/AccountsMapper.java" />
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/properties/test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/properties/public.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/properties/dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/jdbc.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5092">
+          <caret line="295" column="46" selection-start-line="295" selection-start-column="46" selection-end-line="295" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4f9d035d-6f89-4d40-b196-19717f45e279/schema/nine/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="faa98bbe-8756-4e07-a1d0-a5be162552e0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-common/src/main/java/cn/edu/nchu/gf/common/utils/EmailUtill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#441#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/test/java/Email_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/static/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2393">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/ss.html" />
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="3501" column="1" selection-start-line="3501" selection-start-column="1" selection-end-line="3501" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="893" lean-forward="true" selection-start-line="893" selection-end-line="893" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="409" column="18" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/resources/mapper/TUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4f9d035d-6f89-4d40-b196-19717f45e279/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/spring-msg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/applicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
+          <folding>
+            <element signature="e#1239#1257#0" expanded="true" />
+            <element signature="e#1300#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/resources/spring-conifg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/register_1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/register_2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-common/src/main/java/cn/edu/nchu/gf/common/base/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/model/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="112" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4f9d035d-6f89-4d40-b196-19717f45e279/schema/green_farm/table/t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="dd8e9a46-48cb-4861-956c-5fbcf28ca4c5">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-web/src/main/java/cn/edu/nchu/gf/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gf-core/src/main/java/cn/edu/nchu/gf/core/dao/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gf-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
